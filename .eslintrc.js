@@ -6,7 +6,7 @@ module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:react/all',
-    'plugin:tailwind/recommended',
+    'plugin:tailwindcss/recommended',
     'prettier',
   ],
 
@@ -20,7 +20,7 @@ module.exports = {
     'react/jsx-filename-extension': [2, { extensions: ['.ts', '.tsx'] }],
     'react/jsx-max-depth': 'off',
   },
-  plugins: ['react', 'prettier'],
+  plugins: ['react', 'tailwindcss', 'prettier'],
   globals: {
     React: 'writable',
   },

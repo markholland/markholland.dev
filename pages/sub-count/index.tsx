@@ -65,9 +65,9 @@ const SubCount: React.FC = () => {
         <meta content="977966794" name="twitter:app:id:iphone" />
       </Head>
 
-      <main className="flex flex-col justify-between flex-1 m-8">
-        <div className="flex flex-row flex-wrap items-center justify-center flex-1">
-          <div className="flex flex-col items-center justify-center text-center sm:items-end sm:text-right">
+      <main className="flex flex-col flex-1 justify-between m-8">
+        <div className="flex flex-row flex-wrap flex-1 justify-center items-center">
+          <div className="flex flex-col justify-center items-center sm:items-end text-center sm:text-right">
             <Image
               alt="sub count app logo"
               className="rounded-lg"
@@ -78,7 +78,7 @@ const SubCount: React.FC = () => {
               src="/sub-count/sub-count.png"
               width={90}
             />
-            <p className="max-w-xs my-4">{description}</p>
+            <p className="my-4 max-w-xs">{description}</p>
             <div>
               <MobileStoreButton
                 height={40}
@@ -102,7 +102,7 @@ const SubCount: React.FC = () => {
           </div>
         </div>
       </main>
-      <footer className="flex items-center justify-center w-full border-t border-gray-300">
+      <footer className="flex justify-center items-center w-full border-t border-gray-300">
         <p className="p-8">{footer}</p>
       </footer>
     </div>

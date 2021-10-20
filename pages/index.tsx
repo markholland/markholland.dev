@@ -23,7 +23,7 @@ const Home: React.FC = () => {
   const isDarkMode = resolvedTheme === 'dark';
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen px-2 bg-purple-50 dark:bg-purple-900">
+    <div className="flex flex-col justify-center items-center px-2 min-h-screen bg-purple-50 dark:bg-purple-900">
       <Head>
         <title>{title}</title>
 
@@ -81,7 +81,7 @@ const Home: React.FC = () => {
         />
       </Head>
 
-      <main className="flex flex-col items-center justify-center flex-1 py-20">
+      <main className="flex flex-col flex-1 justify-center items-center py-20">
         <Image
           alt="Picture of Mark Holland"
           className="rounded-full"
@@ -119,7 +119,7 @@ const Home: React.FC = () => {
         </div>
       </main>
 
-      <footer className="flex items-center justify-center w-full border-t border-gray-300 dark:text-white">
+      <footer className="flex justify-center items-center w-full dark:text-white border-t border-gray-300">
         <p className="p-8">{footer}</p>
       </footer>
     </div>
