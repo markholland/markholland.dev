@@ -67,7 +67,7 @@ const SubCount: React.FC = () => {
 
       <main className="flex flex-col flex-1 justify-between m-8">
         <div className="flex flex-row flex-wrap flex-1 justify-center items-center">
-          <div className="flex flex-col justify-center items-center sm:items-end text-center sm:text-right">
+          <div className="flex flex-col justify-center items-center text-center sm:items-end sm:text-right">
             <Image
               alt="sub count app logo"
               className="rounded-lg"
