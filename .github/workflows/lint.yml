@@ -4,12 +4,12 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
       with:
         node-version: '16'
     - name: Cache node modules
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       env:
         cache-name: cache-node-modules
       with:
@@ -20,6 +20,6 @@ jobs:
           ${{ runner.os }}-build-
           ${{ runner.os }}-
     - name: Install modules
-      run: npm i --force
+      run: npm i
     - name: Run ESLint
       run: npm run lint
