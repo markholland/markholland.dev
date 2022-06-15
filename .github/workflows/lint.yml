@@ -20,6 +20,6 @@ jobs:
           ${{ runner.os }}-build-
           ${{ runner.os }}-
     - name: Install modules
-      run: npm i
+      run: npm i --legacy-peer-deps
     - name: Run ESLint
       run: npm run lint
