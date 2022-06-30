@@ -23,7 +23,7 @@ const Home: React.FC = () => {
   const isDarkMode = resolvedTheme === 'dark';
 
   return (
-    <div className="flex flex-col justify-center items-center px-2 min-h-screen bg-purple-50 dark:bg-purple-900">
+    <div className="flex min-h-screen flex-col items-center justify-center bg-purple-50 px-2 dark:bg-purple-900">
       <Head>
         <title>{title}</title>
 
@@ -81,7 +81,7 @@ const Home: React.FC = () => {
         />
       </Head>
 
-      <main className="flex flex-col flex-1 justify-center items-center py-20">
+      <main className="flex flex-1 flex-col items-center justify-center py-20">
         <Image
           alt="Picture of Mark Holland"
           className="rounded-full"
@@ -92,15 +92,15 @@ const Home: React.FC = () => {
           width={avatarSize}
         />
 
-        <h1 className="mt-8 font-sans text-6xl font-bold leading-tight text-center dark:text-white">
+        <h1 className="mt-8 text-center font-sans text-6xl font-bold leading-tight dark:text-white">
           {title}
         </h1>
 
-        <p className="my-6 text-2xl leading-normal text-center dark:text-white">
+        <p className="my-6 text-center text-2xl leading-normal dark:text-white">
           {subTitle}
         </p>
 
-        <div className="flex flex-row justify-center w-full">
+        <div className="flex w-full flex-row justify-center">
           <SocialIcon
             bgColor={isDarkMode ? 'white' : '#4078c0'}
             className="mx-4"
@@ -119,7 +119,7 @@ const Home: React.FC = () => {
         </div>
       </main>
 
-      <footer className="flex justify-center items-center w-full dark:text-white border-t border-gray-300">
+      <footer className="flex w-full items-center justify-center border-t border-gray-300 dark:text-white">
         <p className="p-8">{footer}</p>
       </footer>
     </div>

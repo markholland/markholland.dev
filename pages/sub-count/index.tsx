@@ -13,7 +13,7 @@ const SubCount: React.FC = () => {
   const footer = '© Mark Holland 2021';
 
   return (
-    <div className="flex flex-col justify-between min-h-screen ">
+    <div className="flex min-h-screen flex-col justify-between ">
       <Head>
         <title>{title}</title>
 
@@ -65,9 +65,9 @@ const SubCount: React.FC = () => {
         <meta content="977966794" name="twitter:app:id:iphone" />
       </Head>
 
-      <main className="flex flex-col flex-1 justify-between m-8">
-        <div className="flex flex-row flex-wrap flex-1 justify-center items-center">
-          <div className="flex flex-col justify-center items-center text-center sm:items-end sm:text-right">
+      <main className="m-8 flex flex-1 flex-col justify-between">
+        <div className="flex flex-1 flex-row flex-wrap items-center justify-center">
+          <div className="flex flex-col items-center justify-center text-center sm:items-end sm:text-right">
             <Image
               alt="sub count app logo"
               className="rounded-lg"
@@ -89,7 +89,7 @@ const SubCount: React.FC = () => {
               />
             </div>
           </div>
-          <div className="flex-col justify-center mx-2">
+          <div className="mx-2 flex-col justify-center">
             <Image
               alt="Screenshot of sub count app"
               height={600}
@@ -102,7 +102,7 @@ const SubCount: React.FC = () => {
           </div>
         </div>
       </main>
-      <footer className="flex justify-center items-center w-full border-t border-gray-300">
+      <footer className="flex w-full items-center justify-center border-t border-gray-300">
         <p className="p-8">{footer}</p>
       </footer>
     </div>
