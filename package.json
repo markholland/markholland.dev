@@ -14,7 +14,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-mobile-store-button": "^0.0.6",
-    "react-social-icons": "github:markholland/react-social-icons#react-18"
+    "react-social-icons": "^5.14.0"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^12.2.1",
