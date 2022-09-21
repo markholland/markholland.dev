@@ -17,6 +17,7 @@ const SubCount: React.FC = () => {
       <Head>
         <title>{title}</title>
 
+        <link href="https://markholland.dev/sub-count" rel="canonical" />
         {/* Icons */}
         <link href="/sub-count/sub-count-icon.svg" rel="icon" />
         <link
