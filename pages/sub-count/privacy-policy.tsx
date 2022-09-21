@@ -14,6 +14,10 @@ const PrivacyPolicy: React.FC = () => {
       <Head>
         <title>{title}</title>
 
+        <link
+          href="https://markholland.dev/sub-count/privacy-policy"
+          rel="canonical"
+        />
         {/* Icons */}
         <link href="/sub-count/sub-count-icon.svg" rel="icon" />
         <link

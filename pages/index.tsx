@@ -27,6 +27,7 @@ const Home: React.FC = () => {
       <Head>
         <title>{title}</title>
 
+        <link href="https://markholland.dev" rel="canonical" />
         {/* Icons */}
         <link href="/favicon.svg" rel="icon" />
         <link href="/apple-touch-icon.png" rel="apple-touch-icon" />
