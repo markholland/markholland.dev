@@ -10,7 +10,7 @@ const SubCount: React.FC = () => {
 
   const description =
     'Are you a budding YouTuber who incessantly keeps tabs on their rising subscriber count?';
-  const footer = '© Mark Holland 2021';
+  const footer = '© Mark Holland 2022';
 
   return (
     <div className="flex min-h-screen flex-col justify-between ">
