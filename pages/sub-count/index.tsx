@@ -74,7 +74,6 @@ const SubCount: React.FC = () => {
               className="rounded-lg"
               height={90}
               loading="eager"
-              objectFit="contain"
               priority
               src="/sub-count/sub-count.png"
               width={90}
@@ -95,7 +94,6 @@ const SubCount: React.FC = () => {
               alt="Screenshot of sub count app"
               height={600}
               loading="eager"
-              objectFit="contain"
               priority
               src="/sub-count/sub-count-screen.png"
               width={300}
