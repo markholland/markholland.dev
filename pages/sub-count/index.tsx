@@ -10,7 +10,7 @@ const SubCount: React.FC = () => {
 
   const description =
     'Are you a budding YouTuber who incessantly keeps tabs on their rising subscriber count?';
-  const footer = '© Mark Holland 2021';
+  const footer = '© Mark Holland 2022';
 
   return (
     <div className="flex min-h-screen flex-col justify-between ">
@@ -68,13 +68,12 @@ const SubCount: React.FC = () => {
 
       <main className="m-8 flex flex-1 flex-col justify-between">
         <div className="flex flex-1 flex-row flex-wrap items-center justify-center">
-          <div className="flex flex-col items-center justify-center text-center sm:items-end sm:text-right">
+          <div className="xsm:items-end xsm:text-right flex flex-col items-center justify-center text-center">
             <Image
               alt="sub count app logo"
               className="rounded-lg"
               height={90}
               loading="eager"
-              objectFit="contain"
               priority
               src="/sub-count/sub-count.png"
               width={90}
@@ -95,7 +94,6 @@ const SubCount: React.FC = () => {
               alt="Screenshot of sub count app"
               height={600}
               loading="eager"
-              objectFit="contain"
               priority
               src="/sub-count/sub-count-screen.png"
               width={300}
