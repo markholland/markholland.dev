@@ -113,6 +113,13 @@ const Home: React.FC = () => {
             url="https://twitter.com/_markholland"
           />
           <SocialIcon
+            bgColor={isDarkMode ? 'white' : '#6364FF'}
+            className="mx-4"
+            network="mastodon"
+            rel="me"
+            url="https://mastodon.social/@mh"
+          />
+          <SocialIcon
             bgColor={isDarkMode ? 'white' : '#7F7F7F'}
             className="mx-4"
             url="mailto:mark@markholland.dev"
