@@ -8,7 +8,7 @@ const title = 'Mark Holland';
 const subTitle = 'Software Engineer living in Valencia, Spain.';
 const description =
   'Mark Holland is a Software Engineer living in Valencia, Spain.';
-const footer = '© Mark Holland 2022';
+const footer = '© Mark Holland 2023';
 
 const avatarSize = 200;
 
@@ -23,7 +23,7 @@ const Home: React.FC = () => {
   const isDarkMode = resolvedTheme === 'dark';
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-purple-50 px-2 dark:bg-purple-900">
+    <div className="flex min-h-screen flex-col items-center justify-center bg-neutral-200 px-2 dark:bg-neutral-800">
       <Head>
         <title>{title}</title>
 
@@ -56,7 +56,7 @@ const Home: React.FC = () => {
         <meta content={title} property="og:title" />
         <meta content={description} property="og:description" />
         <meta
-          content="https://markholland.dev/avatar.png"
+          content="https://markholland.dev/avatar.jpeg"
           property="og:image"
         />
 
@@ -65,7 +65,7 @@ const Home: React.FC = () => {
         <meta content="@_markholland" name="twitter:site" />
         <meta content="Mark Holland" name="twitter:title" />
         <meta
-          content="https://markholland.dev/avatar.png"
+          content="https://markholland.dev/avatar.jpeg"
           name="twitter:image"
         />
 
@@ -89,7 +89,7 @@ const Home: React.FC = () => {
           height={avatarSize}
           loading="eager"
           priority
-          src="/avatar.png"
+          src="/avatar.jpeg"
           width={avatarSize}
         />
 
@@ -127,7 +127,7 @@ const Home: React.FC = () => {
         </div>
       </main>
 
-      <footer className="flex w-full items-center justify-center border-t border-gray-300 dark:text-white">
+      <footer className="flex w-full items-center justify-center border-t border-gray-500 dark:border-gray-300 dark:text-white">
         <p className="p-8">{footer}</p>
       </footer>
     </div>
