@@ -76,7 +76,7 @@ const Home: React.FC = () => {
           name="theme-color"
         />
         <meta
-          content="#46248f"
+          content="#262626"
           media="(prefers-color-scheme: dark)"
           name="theme-color"
         />
