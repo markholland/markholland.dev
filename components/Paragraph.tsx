@@ -1,7 +1,11 @@
 import { ReactNode } from 'react';
 import 'tailwindcss/tailwind.css';
 
-const Paragraph = ({ children }: { children: ReactNode }) => (
+type Props = {
+  readonly children: ReactNode;
+}
+
+const Paragraph = ({ children }: Props) => (
   <p className="my-2">{children}</p>
 );
 
