@@ -161,7 +161,10 @@ const PrivacyPolicy: React.FC = () => {
           will be able to do necessary actions.
         </P>
         <H>YouTube API Services</H>
-        <P>This service uses YouTube API Services.</P>
+        <P>
+          This service uses YouTube API Services and you are agreeing to be 
+          bound by the YouTube Terms of Service.
+        </P>
         <ul className="mx-8 list-disc">
           <li className="my-2">
             <a
@@ -169,8 +172,7 @@ const PrivacyPolicy: React.FC = () => {
               href="https://www.youtube.com/t/terms"
               rel="noreferrer"
               target="_blank"
-            >
-              YouTube Terms of Service
+            >YouTube Terms of Service
             </a>
           </li>
           <li>
