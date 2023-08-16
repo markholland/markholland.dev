@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "no.catenda.bimsyncmobile",
+      "sha256_cert_fingerprints": [
+        "0F:9D:D7:34:BC:27:01:D7:8F:91:A7:85:91:CD:4B:E9:98:9C:42:A6:56:BF:B5:0E:3D:26:47:AA:0E:A7:78:94"
+      ]
+    }
+  }
+]
