@@ -4,9 +4,18 @@
     "details": [
       {
         "appID": "KQ8NA852BU.no.catenda.bimsyncmobile",
-        "paths": [
-          "/project/*/issues/*",
-          "NOT *"
+        "components": [
+          {
+            "/": "/project/*/issues/",
+            "exclude": true
+          },
+          {
+            "/": "/project/*/issues/*"
+          },
+          {
+            "/": "*",
+            "exclude": true
+          }
         ]
       }
     ]
