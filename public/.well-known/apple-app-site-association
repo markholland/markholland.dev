@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "KQ8NA852BU.no.catenda.bimsyncmobile",
+        "paths": [
+          "/project/*/issues/*",
+          "NOT *"
+        ]
+      }
+    ]
+  }
+}
