@@ -7,6 +7,12 @@
         "components": [
           {
             "/": "/project/*/issues/",
+            "?": {
+              "board": "?*"
+            }
+          },
+          {
+            "/": "/project/*/issues/",
             "exclude": true
           },
           {
