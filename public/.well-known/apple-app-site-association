@@ -19,6 +19,9 @@
             "/": "/project/*/issues/*"
           },
           {
+            "/": "/project/*/libraries/*/items/*"
+          },
+          {
             "/": "*",
             "exclude": true
           }
