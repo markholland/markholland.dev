@@ -9,17 +9,37 @@
             "/": "/project/*/issues/",
             "?": {
               "board": "?*"
-            }
+            },
+            "comment": "Allow if query present with value"
           },
           {
             "/": "/project/*/issues/",
-            "exclude": true
+            "exclude": true,
+            "comment": "Disallow subpaths"
           },
           {
-            "/": "/project/*/issues/*"
+            "/": "/project/*/issues/*",
+            "comment": "Allow with param"
           },
           {
-            "/": "/project/*/libraries/*/items/*"
+            "/": "/project/*/libraries/*/items/*",
+            "comment": "Allow all subpaths and queries"
+          },
+          {
+            "/": "/project/*/collections/",
+            "?": {
+              "item": "?*"
+            },
+            "comment": "Allow if query present with value"
+          },
+          {
+            "/": "/project/*/collections/",
+            "exclude": true,
+            "comment": "Disallow subpaths"
+          },
+          {
+            "/": "/project/*/collections/*",
+            "comment": "Allow with param"
           },
           {
             "/": "*",
