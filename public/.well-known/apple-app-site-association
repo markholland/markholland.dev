@@ -6,44 +6,28 @@
         "appID": "KQ8NA852BU.no.catenda.bimsyncmobile",
         "components": [
           {
-            "/": "/project/*/issues/",
-            "?": {
-              "board": "?*"
-            },
-            "comment": "Allow if query present with value"
+            "/": "/project/*/collections/*"
           },
           {
-            "/": "/project/*/issues/",
-            "exclude": true,
-            "comment": "Disallow subpaths"
+            "/": "/project/*/issues/*"
           },
           {
-            "/": "/project/*/issues/*",
-            "comment": "Allow with param"
-          },
-          {
-            "/": "/project/*/libraries/*/items/*",
-            "comment": "Allow all subpaths and queries"
-          },
-          {
-            "/": "/project/*/collections/",
-            "?": {
-              "item": "?*"
-            },
-            "comment": "Allow if query present with value"
-          },
-          {
-            "/": "/project/*/collections/",
-            "exclude": true,
-            "comment": "Disallow subpaths"
-          },
-          {
-            "/": "/project/*/collections/*",
-            "comment": "Allow with param"
+            "/": "/project/*/libraries/*/items/*"
           },
           {
             "/": "*",
             "exclude": true
+          }
+        ],
+        "details": [
+          {
+            "appID": "KQ8NA852BU.no.catenda.bimsyncmobile",
+            "paths": [
+              "/project/*/collections/*",
+              "/project/*/issues/*",
+              "/project/*/libraries/*/items/*",
+              "NOT *"
+            ]
           }
         ]
       }
