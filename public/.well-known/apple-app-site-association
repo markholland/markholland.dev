@@ -9,6 +9,10 @@
             "/": "/project/*/collections/*"
           },
           {
+            "/": "/project/*/issues/",
+            "exclude": true
+          },
+          {
             "/": "/project/*/issues/*"
           },
           {
