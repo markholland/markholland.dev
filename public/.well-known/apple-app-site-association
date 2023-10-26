@@ -10,11 +10,6 @@
             "comment": "Allow collections and collection items"
           },
           {
-            "/": "/project/*/issues/",
-            "exclude": true,
-            "comment": "Disallow issue boards"
-          },
-          {
             "/": "/project/*/issues/*",
             "comment": "Allow issues"
           },
