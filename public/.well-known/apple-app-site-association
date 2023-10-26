@@ -6,21 +6,17 @@
         "appID": "KQ8NA852BU.no.catenda.bimsyncmobile",
         "components": [
           {
-            "/": "/project/*/collections/*",
-            "comment": "Allow collections and collection items"
+            "/": "/project/*/collections/*"
           },
           {
-            "/": "/project/*/issues/*",
-            "comment": "Allow issues"
+            "/": "/project/*/issues/*"
           },
           {
-            "/": "/project/*/libraries/*/items/*",
-            "comment": "Allow documents"
+            "/": "/project/*/libraries/*/items/*"
           },
           {
             "/": "*",
-            "exclude": true,
-            "comment": "Disallow anything else"
+            "exclude": true
           }
         ],
         "details": [
