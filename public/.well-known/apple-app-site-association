@@ -14,10 +14,6 @@
             "comment": "Allow issues"
           },
           {
-            "/": "/project/*/libraries/*/items",
-            "comment": "Allow folders including root"
-          },
-          {
             "/": "/project/*/libraries/*/items/*",
             "comment": "Allow documents"
           },
@@ -33,7 +29,6 @@
             "paths": [
               "/project/*/collections/*",
               "/project/*/issues/*",
-              "/project/*/libraries/*/items",
               "/project/*/libraries/*/items/*",
               "NOT *"
             ]
