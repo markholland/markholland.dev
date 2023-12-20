@@ -18,7 +18,7 @@
     "react-social-icons": "github:ken-salterdiazsolutions/react-social-icons#add-mastodon-icon"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^14.0.1",
+    "@next/eslint-plugin-next": "^14.0.4",
     "@types/node": "^20.10.4",
     "@types/react": "^18.2.45",
     "@typescript-eslint/eslint-plugin": "^6.13.2",
