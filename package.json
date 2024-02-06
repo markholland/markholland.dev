@@ -7,6 +7,7 @@
     "build": "next build",
     "lint": "eslint .",
     "postinstall": "patch-package",
+    "prepare": "husky",
     "start": "next start"
   },
   "dependencies": {
