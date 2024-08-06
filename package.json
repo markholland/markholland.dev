@@ -33,7 +33,7 @@
     "eslint-plugin-tailwindcss": "^3.17.4",
     "husky": "^9.0.11",
     "patch-package": "^8.0.0",
-    "postcss": "^8.4.39",
+    "postcss": "^8.4.41",
     "prettier": "^3.3.2",
     "prettier-plugin-tailwindcss": "^0.6.5",
     "pretty-quick": "^4.0.0",
