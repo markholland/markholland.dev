@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import 'tailwindcss/tailwind.css';
-import { useTheme } from 'next-themes';
 import { SocialIcon } from 'react-social-icons';
 
 const title = 'Mark Holland';
@@ -11,6 +10,7 @@ const description =
 const footer = '© Mark Holland 2024';
 
 const avatarSize = 200;
+const socialIconColor = '#7f7f7f';
 
 declare module 'react' {
   interface MetaHTMLAttributes<T> extends AriaAttributes, DOMAttributes<T> {
@@ -19,9 +19,6 @@ declare module 'react' {
 }
 
 const Home: React.FC = () => {
-  const { resolvedTheme } = useTheme();
-  const isDarkMode = resolvedTheme === 'dark';
-
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-neutral-200 px-2 dark:bg-neutral-800">
       <Head>
@@ -103,19 +100,19 @@ const Home: React.FC = () => {
 
         <div className="flex w-full flex-row justify-center">
           <SocialIcon
-            bgColor={isDarkMode ? 'white' : '#4078c0'}
+            bgColor={socialIconColor}
             className="mx-4"
             url="https://github.com/markholland"
           />
           <SocialIcon
-            bgColor={isDarkMode ? 'white' : '#6364FF'}
+            bgColor={socialIconColor}
             className="mx-4"
             network="mastodon"
             rel="me"
             url="https://mastodon.social/@mh"
           />
           <SocialIcon
-            bgColor={isDarkMode ? 'white' : '#7F7F7F'}
+            bgColor={socialIconColor}
             className="mx-4"
             url="mailto:mark@markholland.dev"
           />
