@@ -13,5 +13,15 @@ jobs:
       with:
         cache: "npm"
         node-version-file: '.node-version'
-    - run: npm ci
-    - run: npm run lint
+    - name: Get changed files
+      id: changed-files
+      uses: tj-actions/changed-files@v45
+      with:
+        files: |
+          **/*.tsx
+        use_rest_api: true
+    - name: Install dependencies
+      if: steps.changed-files.outputs.any_changed == 'true'
+      run: |
+        npm ci
+        npm run lint
