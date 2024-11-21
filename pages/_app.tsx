@@ -1,6 +1,6 @@
-import type { AppProps } from 'next/app';
-import { ThemeProvider } from 'next-themes';
-import { SpeedInsights } from '@vercel/speed-insights/next';
+import type { AppProps } from 'next/app'
+import { ThemeProvider } from 'next-themes'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
@@ -9,7 +9,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
       <Component {...pageProps} />
       <SpeedInsights />
     </ThemeProvider>
-  );
-};
+  )
+}
 
-export default MyApp;
+export default MyApp

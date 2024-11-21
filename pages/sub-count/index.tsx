@@ -1,16 +1,16 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import MobileStoreButton from 'react-mobile-store-button';
+import Head from 'next/head'
+import Image from 'next/image'
+import MobileStoreButton from 'react-mobile-store-button'
 
-import 'tailwindcss/tailwind.css';
+import 'tailwindcss/tailwind.css'
 
 const SubCount: React.FC = () => {
-  const title = 'sub count';
-  const metaDescription = 'iOS app for viewing your YouTube subscriber count';
+  const title = 'sub count'
+  const metaDescription = 'iOS app for viewing your YouTube subscriber count'
 
   const description =
-    'Are you a budding YouTuber who incessantly keeps tabs on their rising subscriber count?';
-  const footer = '© Mark Holland 2024';
+    'Are you a budding YouTuber who incessantly keeps tabs on their rising subscriber count?'
+  const footer = '© Mark Holland 2024'
 
   return (
     <div className="flex min-h-screen flex-col justify-between ">
@@ -105,7 +105,7 @@ const SubCount: React.FC = () => {
         <p className="p-8">{footer}</p>
       </footer>
     </div>
-  );
-};
+  )
+}
 
-export default SubCount;
+export default SubCount

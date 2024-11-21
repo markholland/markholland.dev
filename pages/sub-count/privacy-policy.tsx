@@ -1,13 +1,13 @@
 /* eslint-disable react/jsx-no-literals */
-import Head from 'next/head';
-import 'tailwindcss/tailwind.css';
+import Head from 'next/head'
+import 'tailwindcss/tailwind.css'
 
-import H from '../../components/Header';
-import P from '../../components/Paragraph';
+import H from '../../components/Header'
+import P from '../../components/Paragraph'
 
 const PrivacyPolicy: React.FC = () => {
-  const title = 'Privacy Policy';
-  const metaDescription = 'Privacy Policy for sub count iOS app';
+  const title = 'Privacy Policy'
+  const metaDescription = 'Privacy Policy for sub count iOS app'
 
   return (
     <div>
@@ -162,7 +162,7 @@ const PrivacyPolicy: React.FC = () => {
         </P>
         <H>YouTube API Services</H>
         <P>
-          This service uses YouTube API Services and you are agreeing to be 
+          This service uses YouTube API Services and you are agreeing to be
           bound by the YouTube Terms of Service.
         </P>
         <ul className="mx-8 list-disc">
@@ -172,7 +172,8 @@ const PrivacyPolicy: React.FC = () => {
               href="https://www.youtube.com/t/terms"
               rel="noreferrer"
               target="_blank"
-            >YouTube Terms of Service
+            >
+              YouTube Terms of Service
             </a>
           </li>
           <li>
@@ -201,7 +202,7 @@ const PrivacyPolicy: React.FC = () => {
         </P>
       </main>
     </div>
-  );
-};
+  )
+}
 
-export default PrivacyPolicy;
+export default PrivacyPolicy
