@@ -107,9 +107,9 @@ const Home: React.FC = () => {
           <SocialIcon
             bgColor={socialIconColor}
             className="mx-4"
-            network="mastodon"
+            network="bsky.app"
             rel="me"
-            url="https://mastodon.social/@mh"
+            url="https://bsky.app/profile/markholland.bsky.social"
           />
           <SocialIcon
             bgColor={socialIconColor}

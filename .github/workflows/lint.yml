@@ -1,25 +1,27 @@
-name: CI
-on: [pull_request]
+name: Code Quality
+on: 
+  pull_request:
+    branches:
+      - main
+
 jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
       with:
-        node-version: '20'
-    - name: Cache node modules
-      uses: actions/cache@v3
-      env:
-        cache-name: cache-node-modules
+        cache: "npm"
+        node-version-file: '.node-version'
+    - name: Get changed files
+      id: changed-files
+      uses: tj-actions/changed-files@v45
       with:
-        path: ~/.npm
-        key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-build-${{ env.cache-name }}-
-          ${{ runner.os }}-build-
-          ${{ runner.os }}-
-    - name: Install modules
-      run: npm i
-    - name: Run ESLint
-      run: npm run lint
+        files: |
+          **/*.tsx
+        use_rest_api: true
+    - name: Run lint
+      if: steps.changed-files.outputs.any_changed == 'true'
+      run: |
+        npm ci
+        npm run lint
