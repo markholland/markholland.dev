@@ -21,7 +21,7 @@ module.exports = {
     'react/jsx-filename-extension': [2, { extensions: ['.ts', '.tsx'] }],
     'react/jsx-max-depth': 'off',
   },
-  plugins: ['react', 'tailwindcss', 'prettier'],
+  plugins: ['react', 'tailwindcss'],
   globals: {
     React: 'writable',
   },
@@ -30,4 +30,4 @@ module.exports = {
       version: 'detect',
     },
   },
-};
+}

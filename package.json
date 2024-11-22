@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "lint": "eslint .",
+    "lint": "scripts/lint.sh",
     "postinstall": "patch-package",
     "prepare": "husky",
     "start": "next start"
@@ -29,7 +29,6 @@
     "eslint": "8.57.0",
     "eslint-config-next": "15.0.3",
     "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-prettier": "5.2.1",
     "eslint-plugin-react": "7.37.2",
     "eslint-plugin-tailwindcss": "3.17.5",
     "husky": "9.1.7",
