@@ -1,20 +1,20 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import 'tailwindcss/tailwind.css';
-import { SocialIcon } from 'react-social-icons';
+import Head from 'next/head'
+import Image from 'next/image'
+import 'tailwindcss/tailwind.css'
+import { SocialIcon } from 'react-social-icons'
 
-const title = 'Mark Holland';
-const subTitle = 'Software Engineer living in Valencia, Spain.';
+const title = 'Mark Holland'
+const subTitle = 'Software Engineer living in Valencia, Spain.'
 const description =
-  'Mark Holland is a Software Engineer living in Valencia, Spain.';
-const footer = '© Mark Holland 2024';
+  'Mark Holland is a Software Engineer living in Valencia, Spain.'
+const footer = '© Mark Holland 2024'
 
-const avatarSize = 200;
-const socialIconColor = '#7f7f7f';
+const avatarSize = 200
+const socialIconColor = '#7f7f7f'
 
 declare module 'react' {
   interface MetaHTMLAttributes<T> extends AriaAttributes, DOMAttributes<T> {
-    media?: string;
+    media?: string
   }
 }
 
@@ -109,7 +109,7 @@ const Home: React.FC = () => {
             className="mx-4"
             network="bsky.app"
             rel="me"
-            url="https://bsky.app/profile/markholland.bsky.social"
+            url="https://bsky.app/profile/markholland.dev"
           />
           <SocialIcon
             bgColor={socialIconColor}
@@ -123,7 +123,7 @@ const Home: React.FC = () => {
         <p className="p-8">{footer}</p>
       </footer>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
