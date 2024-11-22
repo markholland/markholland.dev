@@ -13,7 +13,7 @@ const SubCount: React.FC = () => {
   const footer = '© Mark Holland 2024'
 
   return (
-    <div className="flex min-h-screen flex-col justify-between ">
+    <div className="flex min-h-screen flex-col justify-between">
       <Head>
         <title>{title}</title>
 

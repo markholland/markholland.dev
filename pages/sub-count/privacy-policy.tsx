@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-literals */
 import Head from 'next/head'
 import 'tailwindcss/tailwind.css'
 

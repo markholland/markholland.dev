@@ -6,7 +6,6 @@ import { SpeedInsights } from '@vercel/speed-insights/next'
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <ThemeProvider defaultTheme="system">
-      {/* eslint-disable-next-line react/jsx-props-no-spreading*/}
       <Component {...pageProps} />
       <Analytics />
       <SpeedInsights />
