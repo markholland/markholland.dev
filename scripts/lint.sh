@@ -2,5 +2,5 @@
 set -e
 trap "exit" INT
 
-npx eslint
+npx eslint . --max-warnings=0
 npx prettier --check .
