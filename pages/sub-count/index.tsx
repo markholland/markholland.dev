@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import MobileStoreButton from 'react-mobile-store-button'
+
+import MobileStoreButton from '../../components/MobileStoreButton'
 
 import 'tailwindcss/tailwind.css'
 
@@ -82,8 +83,6 @@ const SubCount: React.FC = () => {
             <div>
               <MobileStoreButton
                 height={40}
-                linkProps={{ title: 'iOS Store Button' }}
-                store="ios"
                 url="https://itunes.apple.com/us/app/sub-count/id977966794"
                 width={130}
               />
