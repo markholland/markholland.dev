@@ -7,7 +7,7 @@ const title = 'Mark Holland'
 const subTitle = 'Software Engineer living in Valencia, Spain.'
 const description =
   'Mark Holland is a Software Engineer living in Valencia, Spain.'
-const footer = '© Mark Holland 2024'
+const footer = '© Mark Holland 2025'
 
 const avatarSize = 200
 const socialIconColor = '#7f7f7f'
