@@ -1,5 +1,4 @@
 import next from '@next/eslint-plugin-next'
-import tsParser from '@typescript-eslint/parser'
 import eslintConfigPrettier from 'eslint-config-prettier'
 import react from 'eslint-plugin-react'
 import tailwindcss from 'eslint-plugin-tailwindcss'
@@ -21,7 +20,6 @@ export default [
   },
   {
     languageOptions: {
-      parser: tsParser,
       ecmaVersion: 2021,
       sourceType: 'script',
     },
