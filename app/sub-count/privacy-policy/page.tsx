@@ -1,52 +1,40 @@
-import Head from 'next/head'
-import 'tailwindcss/tailwind.css'
+import H from '../../../components/Header'
+import P from '../../../components/Paragraph'
+import type { Metadata } from 'next'
 
-import H from '../../components/Header'
-import P from '../../components/Paragraph'
+export const metadata: Metadata = {
+  title: 'Privacy Policy',
+  description: 'Privacy Policy for sub count iOS app',
+  icons: {
+    icon: [
+      { url: '/sub-count/sub-count-icon.svg' },
+      { url: '/sub-count/sub-count-favicon.ico', rel: 'alternate icon' },
+      {
+        url: '/sub-count/sub-count-favicon-32x32.png',
+        sizes: '32x32',
+        type: 'image/png',
+      },
+      {
+        url: '/sub-count/sub-count-favicon-16x16.png',
+        sizes: '16x16',
+        type: 'image/png',
+      },
+    ],
+    apple: '/sub-count/sub-count-apple-touch-icon.png',
+    other: [
+      {
+        rel: 'mask-icon',
+        url: '/sub-count/sub-count-mask-icon.svg',
+        color: '#b82927',
+      },
+    ],
+  },
+  manifest: '/sub-count/sub-count-site.webmanifest',
+}
 
-const PrivacyPolicy: React.FC = () => {
-  const title = 'Privacy Policy'
-  const metaDescription = 'Privacy Policy for sub count iOS app'
-
+export default function PrivacyPolicy() {
   return (
     <div>
-      <Head>
-        <title>{title}</title>
-
-        <link
-          href="https://markholland.dev/sub-count/privacy-policy"
-          rel="canonical"
-        />
-        {/* Icons */}
-        <link href="/sub-count/sub-count-icon.svg" rel="icon" />
-        <link
-          href="/sub-count/sub-count-apple-touch-icon.png"
-          rel="apple-touch-icon"
-        />
-        <link href="/sub-count/sub-count-favicon.ico" rel="alternate icon" />
-        <link
-          href="/sub-count/sub-count-favicon-32x32.png"
-          rel="icon"
-          sizes="32x32"
-          type="image/png"
-        />
-        <link
-          href="/sub-count/sub-count-favicon-16x16.png"
-          rel="icon"
-          sizes="16x16"
-          type="image/png"
-        />
-        <link
-          color="#b82927"
-          href="/sub-count/sub-count-mask-icon.svg"
-          rel="mask-icon"
-        />
-        <meta content="#ffffff" name="theme-color" />
-        <link href="/sub-count/sub-count-site.webmanifest" rel="manifest" />
-
-        <meta content={metaDescription} name="description" />
-      </Head>
-
       <main className="m-8">
         <h1 className="my-4 font-sans text-4xl font-bold leading-tight">
           Sub Count
@@ -203,5 +191,3 @@ const PrivacyPolicy: React.FC = () => {
     </div>
   )
 }
-
-export default PrivacyPolicy
