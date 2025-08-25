@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "3.3.1",
-    "@eslint/js": "9.31.0",
+    "@eslint/js": "9.34.0",
     "@next/eslint-plugin-next": "15.5.0",
     "@types/node": "24.2.1",
     "@types/react": "19.1.11",
