@@ -15,8 +15,8 @@
     "@vercel/speed-insights": "1.2.0",
     "next": "15.4.1",
     "next-themes": "0.4.6",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
     "react-social-icons": "6.24.0"
   },
   "devDependencies": {
@@ -24,7 +24,7 @@
     "@eslint/js": "9.31.0",
     "@next/eslint-plugin-next": "15.4.6",
     "@types/node": "24.2.1",
-    "@types/react": "19.1.8",
+    "@types/react": "19.1.11",
     "autoprefixer": "10.4.21",
     "eslint-config-next": "15.4.6",
     "eslint-config-prettier": "10.1.8",
