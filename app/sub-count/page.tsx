@@ -60,7 +60,7 @@ export const metadata = {
 export default function SubCount() {
   const description =
     'Are you a budding YouTuber who incessantly keeps tabs on their rising subscriber count?'
-  const footer = '© Mark Holland 2024'
+  const footer = '© Mark Holland 2025'
 
   return (
     <div className="flex min-h-screen flex-col justify-between">
