@@ -2,10 +2,10 @@ import Image from 'next/image'
 import MobileStoreButton from '../../components/MobileStoreButton'
 
 export const metadata = {
-  title: 'sub count',
+  title: 'Sub Count',
   description: 'iOS app for viewing your YouTube subscriber count',
   openGraph: {
-    title: 'sub count',
+    title: 'Sub Count',
     description:
       'Are you a budding YouTuber who incessantly keeps tabs on their rising subscriber count?',
     url: 'https://markholland.dev/sub-count',
@@ -22,7 +22,7 @@ export const metadata = {
     description: 'iOS app for viewing your YouTube subscriber count',
     app: {
       name: {
-        iphone: 'sub count',
+        iphone: 'Sub Count',
       },
       id: {
         iphone: '977966794',
@@ -68,7 +68,7 @@ export default function SubCount() {
         <div className="flex flex-1 flex-row flex-wrap items-center justify-center">
           <div className="xsm:items-end xsm:text-right flex flex-col items-center justify-center text-center">
             <Image
-              alt="sub count app logo"
+              alt="Sub Count app logo"
               className="rounded-lg"
               height={90}
               loading="eager"
@@ -87,7 +87,7 @@ export default function SubCount() {
           </div>
           <div className="mx-2 flex-col justify-center">
             <Image
-              alt="Screenshot of sub count app"
+              alt="Screenshot of Sub Count app"
               height={600}
               loading="eager"
               priority

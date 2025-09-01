@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'Privacy Policy for sub count iOS app',
+  description: 'Privacy Policy for Sub Count iOS app',
   icons: {
     icon: [
       { url: '/sub-count/sub-count-icon.svg' },
