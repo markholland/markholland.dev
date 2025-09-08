@@ -59,7 +59,7 @@ export const metadata = {
 
 export default function SubCount() {
   const description =
-    'Are you a budding YouTuber who incessantly keeps tabs on their rising subscriber count?'
+    'Sub Count delivers real-time subscriber and view count data right to your fingertips.'
   const footer = '© Mark Holland 2025'
 
   return (
