@@ -3,6 +3,11 @@ import eslintConfigPrettier from 'eslint-config-prettier'
 import react from 'eslint-plugin-react'
 import tailwindcss from 'eslint-plugin-tailwindcss'
 import tseslint from 'typescript-eslint'
+import path from 'node:path'
+import { fileURLToPath } from 'node:url'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 export default [
   eslintConfigPrettier,
@@ -31,6 +36,9 @@ export default [
     settings: {
       react: {
         version: 'detect',
+      },
+      tailwindcss: {
+        config: path.join(__dirname, './tailwind.config.js'),
       },
     },
   },
