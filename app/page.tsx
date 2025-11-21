@@ -22,7 +22,7 @@ export default function Home() {
           width={avatarSize}
         />
 
-        <h1 className="mt-8 text-center font-sans text-6xl font-bold leading-tight dark:text-white">
+        <h1 className="mt-8 text-center font-sans text-6xl leading-tight font-bold dark:text-white">
           {title}
         </h1>
 

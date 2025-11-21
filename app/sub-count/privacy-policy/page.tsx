@@ -36,10 +36,10 @@ export default function PrivacyPolicy() {
   return (
     <div>
       <main className="m-8">
-        <h1 className="my-4 font-sans text-4xl font-bold leading-tight">
+        <h1 className="my-4 font-sans text-4xl leading-tight font-bold">
           Sub Count
         </h1>
-        <h2 className="my-4 font-sans text-2xl font-bold leading-tight">
+        <h2 className="my-4 font-sans text-2xl leading-tight font-bold">
           Privacy Policy
         </h2>
         <P>
