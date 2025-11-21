@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "lint": "scripts/lint.sh",
+    "lint": "eslint . --max-warnings=0",
+    "format": "prettier --check .",
     "postinstall": "patch-package",
     "prepare": "husky",
     "start": "next start"
