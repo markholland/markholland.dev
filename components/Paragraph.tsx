@@ -1,5 +1,4 @@
 import { ReactNode } from 'react'
-import 'tailwindcss/tailwind.css'
 
 type Props = {
   readonly children: ReactNode
