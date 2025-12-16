@@ -23,10 +23,10 @@
   "devDependencies": {
     "@next/eslint-plugin-next": "16.0.10",
     "@tailwindcss/postcss": "4.1.18",
-    "@types/node": "25.0.1",
+    "@types/node": "25.0.2",
     "@types/react": "19.2.7",
-    "autoprefixer": "10.4.22",
-    "eslint": "9.39.1",
+    "autoprefixer": "10.4.23",
+    "eslint": "9.39.2",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-tailwindcss": "4.0.0-beta.0",
@@ -38,7 +38,7 @@
     "pretty-quick": "4.2.2",
     "tailwindcss": "4.1.18",
     "typescript": "5.9.3",
-    "typescript-eslint": "8.49.0"
+    "typescript-eslint": "8.50.0"
   },
   "engines": {
     "node": "22.x"
