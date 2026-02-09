@@ -1,0 +1,87 @@
+==================================================================
+https://keybase.io/markh
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://markholland.dev
+  * I am markh (https://keybase.io/markh) on keybase.
+  * I have a public key with fingerprint D3B6 D6CD 1D26 AA8B 1BBB  E61C 42A2 9036 4C29 5A24
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101a2072c52919c97029b65965efbeb5d96ba41256e50fe441a4ee48921feb9d42b0a",
+      "fingerprint": "d3b6d6cd1d26aa8b1bbbe61c42a290364c295a24",
+      "host": "keybase.io",
+      "key_id": "42a290364c295a24",
+      "kid": "0101a2072c52919c97029b65965efbeb5d96ba41256e50fe441a4ee48921feb9d42b0a",
+      "uid": "25a214fb7b8b499b360c89dc130b7a00",
+      "username": "markh"
+    },
+    "merkle_root": {
+      "ctime": 1770650905,
+      "hash_meta": "4faa58a3faa6f8fc374a676d1d20ec73bea45c9d2deadafcaaf5f2d6715764ce",
+      "seqno": 27397321
+    },
+    "revoke": {
+      "sig_ids": [
+        "8a2f9545c9339827d466afca35e142343d784224d6445e738c510ee721be70a00f"
+      ]
+    },
+    "service": {
+      "hostname": "markholland.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1770651003,
+  "expire_in": 157680000,
+  "prev": "6997054a30aec3475db0689eea366890fdf15943b73782552465608ffeb0bae8",
+  "seqno": 56,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.17
+Comment: https://keybase.io/crypto
+
+yMPVAnicrVNrbBVFGG3hltICaQulURAoW0igLTA7Ozu7Wx5GUoMPQkslKFS9zOzO
+tpfe3r3d3b4oNQEkSm8KIpRGeQhFeSikElB5hIdFQS1QebUVQaGgYEwVCbVCQJxt
+NGriT/fPl9053/nOOd/OJwN6R8VHT214DU8fO3dUdHNTeWlUYNn9qiqBWkalkFUl
+FLGewoIGc1x/UcAQsgQgApFAoEBdhpqo6ZoCoEaxrGGZmZRR2dAwJUiEMmYyMBlC
+IkGMIVWDosmoZiBIAREyBTMQKmB22A6EXE5rSBQbWDdEA2JCVCpSShkWdQQJ1ICE
+kQ41mUDEGwstx+vg4ihx2PiAxb/xF3+PvP/A/8+6S3voICcXkUkVqlKkaVTCQFc1
+QxclQBUCgAd0mB0ixYyji4ldVChUZwrFzC4KMr9tWa6XrO4GvHNRUQCWgQZk7o44
+hf5i5hLPjEmIrBKJF2yqpi4piGAFeyEBpisSZQTJumZAgxGDmDohpmxCAyuirPAE
+GBfhsJKQJWRBRdIUCYpcgs3KrCLmTXcCBTw0R8jKF1QCTU32yCRJU6FiIIw9Qklm
+IoISkgxFRRAiAyMkM0VSdVkEjClQpEwB3K8pvFDtTbPLAnoPubelf7q3gkESMsYb
+rIyrCtuWa+lWkB8Wum7YyfKycSvDHrqcUf+fPH4aCBn8N+EdZcx2AlaIZ8WR/4pN
+BEDKFFhFOGAzf8BDcPMq4I83h4/LErDGty0jIgHCdAkpskEBVjXGiIR5BaZhirKG
+JKpIigplGSIsY6CafO+AEqb+naOMuU5SwDl5eCHiltpMqG76+HlfVHR8VJ+YXt79
+iYqPS/zrVl19I+H3SccSUncua3iwctMpKn+3r+3tvcMWNHVefq+lqSzmm2cfSbla
+tf4yHZSci/t+tHhgfVpu0o7GY2tORjp3Xt/TFembse/OJOts7AK36MBof+W54ZHB
+ozfWzZx8cF7DtKNLXkoRVtbdj0TfCX/WnJPudOdMPD87d9v8a8k3Lr4ze/tRMSIG
+fVve3JUdU3lk+smauRVqe3kBvN26Y9VD7vLuQ4ldQ1tSqvrFi3Hnv1x/o2PW0Jbc
+9y8nt0mrfd+bbb1fT++Mf/C0nVfxyxfB+nGFexe139u8dYRPpy++2//unNS82qXS
+0Oeu06RbG6c4cOHFmvrlg9I6dq8+OxOduJiXePPhxhtOet3hA4MeWzg56eZP+0tW
+uben1bZsmPLz9W2HJf/Mk18f6jBnwLV43cAc38QnZsyaYjaMFc6lja7O6ZMXl39p
+/Lpv/aOWb1tU33jklYS2krxXd04o72WEF0eGvJU54sy8/v0+NC/l98v2byorZtWn
+loxpTKVDNnS36sfdHN+EGWOSezefqTj0eWv2wCtpJXGPrllxYXXqtRV1G49X/PaD
+z7TP7XHBJZqxt+bHCZPuztl+eu0HkeH32s8+o21qn18zYNenGZ0jQqj1SqsoZB/M
+nzor9vSvS+udrnkvD8voMq4Vj3xyTEz1yMebm0oTtfTdNflfpaw60V3bkQBu779w
+PrZx6xY2bvOtPnPuP5Uzsrlh8B9ASPr8
+=yFi2
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/markh
+
+==================================================================
