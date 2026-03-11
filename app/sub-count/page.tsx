@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import MobileStoreButton from '../../components/MobileStoreButton'
+import { subCountIcons, subCountManifest } from './metadata'
 
 export const metadata = {
   title: 'Sub Count',
@@ -30,37 +31,14 @@ export const metadata = {
       country: 'US',
     },
   },
-  icons: {
-    icon: [
-      { url: '/sub-count/sub-count-icon.svg' },
-      { url: '/sub-count/sub-count-favicon.ico', rel: 'alternate icon' },
-      {
-        url: '/sub-count/sub-count-favicon-32x32.png',
-        sizes: '32x32',
-        type: 'image/png',
-      },
-      {
-        url: '/sub-count/sub-count-favicon-16x16.png',
-        sizes: '16x16',
-        type: 'image/png',
-      },
-    ],
-    apple: '/sub-count/sub-count-apple-touch-icon.png',
-    other: [
-      {
-        rel: 'mask-icon',
-        url: '/sub-count/sub-count-mask-icon.svg',
-        color: '#b82927',
-      },
-    ],
-  },
-  manifest: '/sub-count/sub-count-site.webmanifest',
+  icons: subCountIcons,
+  manifest: subCountManifest,
 }
 
 export default function SubCount() {
   const description =
     'Sub Count delivers real-time subscriber and view count data right to your fingertips.'
-  const footer = '© Mark Holland 2025'
+  const footer = '© Mark Holland 2026'
 
   return (
     <div className="flex min-h-screen flex-col justify-between">
@@ -71,7 +49,6 @@ export default function SubCount() {
               alt="Sub Count app logo"
               className="rounded-lg"
               height={90}
-              loading="eager"
               priority
               src="/sub-count/sub-count.png"
               width={90}
@@ -89,7 +66,6 @@ export default function SubCount() {
             <Image
               alt="Screenshot of Sub Count app"
               height={600}
-              loading="eager"
               priority
               src="/sub-count/sub-count-screen.png"
               width={300}
