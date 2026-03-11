@@ -1,35 +1,13 @@
 import H from '../../../components/Header'
 import P from '../../../components/Paragraph'
 import type { Metadata } from 'next'
+import { subCountIcons, subCountManifest } from '../metadata'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description: 'Privacy Policy for Sub Count iOS app',
-  icons: {
-    icon: [
-      { url: '/sub-count/sub-count-icon.svg' },
-      { url: '/sub-count/sub-count-favicon.ico', rel: 'alternate icon' },
-      {
-        url: '/sub-count/sub-count-favicon-32x32.png',
-        sizes: '32x32',
-        type: 'image/png',
-      },
-      {
-        url: '/sub-count/sub-count-favicon-16x16.png',
-        sizes: '16x16',
-        type: 'image/png',
-      },
-    ],
-    apple: '/sub-count/sub-count-apple-touch-icon.png',
-    other: [
-      {
-        rel: 'mask-icon',
-        url: '/sub-count/sub-count-mask-icon.svg',
-        color: '#b82927',
-      },
-    ],
-  },
-  manifest: '/sub-count/sub-count-site.webmanifest',
+  icons: subCountIcons,
+  manifest: subCountManifest,
 }
 
 export default function PrivacyPolicy() {

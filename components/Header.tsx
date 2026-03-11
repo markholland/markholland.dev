@@ -5,7 +5,7 @@ type Props = {
 }
 
 const Header = ({ children }: Props) => (
-  <p className="my-4 font-bold">{children}</p>
+  <h3 className="my-4 font-bold">{children}</h3>
 )
 
 export default Header
