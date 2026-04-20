@@ -3,7 +3,7 @@ import { SocialIcon } from 'react-social-icons'
 
 const title = 'Mark Holland'
 const subTitle = 'Software Engineer living in Valencia, Spain.'
-const footer = '© Mark Holland 2025'
+const footer = '© Mark Holland 2026'
 
 const avatarSize = 200
 const socialIconColor = '#7f7f7f'
@@ -16,7 +16,6 @@ export default function Home() {
           alt="Picture of Mark Holland"
           className="rounded-full"
           height={avatarSize}
-          loading="eager"
           priority
           src="/avatar.jpeg"
           width={avatarSize}
