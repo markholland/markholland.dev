@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "jq -r '.tool_input.file_path' | xargs npx prettier --write"
+            "command": "jq -r '.tool_input.file_path' | grep -E '\\.(ts|tsx|js|jsx|css|md|json)$' | xargs -r npx prettier --write"
           }
         ]
       },
@@ -15,7 +15,16 @@
         "hooks": [
           {
             "type": "command",
-            "command": "jq -r '.tool_input.file_path' | xargs npx eslint --max-warnings=0"
+            "command": "jq -r '.tool_input.file_path' | grep -E '\\.(ts|tsx|js|jsx)$' | xargs -r npx eslint --max-warnings=0"
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path' | grep -qE '\\.(ts|tsx)$' && npx tsc --noEmit"
           }
         ]
       }
