@@ -38,7 +38,7 @@
     "pretty-quick": "4.2.2",
     "tailwindcss": "4.1.18",
     "typescript": "6.0.3",
-    "typescript-eslint": "8.59.2"
+    "typescript-eslint": "8.60.0"
   },
   "engines": {
     "node": "22.x"
