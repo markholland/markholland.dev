@@ -13,7 +13,7 @@ export default [
   eslintConfigPrettier,
   react.configs.flat.recommended,
   react.configs.flat['jsx-runtime'],
-  ...tailwindcss.configs['flat/recommended'],
+  tailwindcss.configs.recommended,
   ...tseslint.configs.recommended,
   {
     ignores: [
@@ -39,7 +39,7 @@ export default [
         version: '19.2',
       },
       tailwindcss: {
-        config: path.join(__dirname, './tailwind.config.js'),
+        cssConfigPath: path.join(__dirname, './app/globals.css'),
       },
     },
   },
