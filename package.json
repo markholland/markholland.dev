@@ -44,6 +44,11 @@
   "engines": {
     "node": "22.x"
   },
+  "overrides": {
+    "eslint-plugin-react": {
+      "eslint": "$eslint"
+    }
+  },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged && npm run lint"

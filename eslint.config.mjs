@@ -35,7 +35,8 @@ export default [
     },
     settings: {
       react: {
-        version: 'detect',
+        // eslint-plugin-react auto-detection still uses an API removed in ESLint 10.
+        version: '19.2',
       },
       tailwindcss: {
         config: path.join(__dirname, './tailwind.config.js'),
