@@ -44,7 +44,7 @@ export default function SubCount() {
     <div className="flex min-h-screen flex-col justify-between">
       <main className="m-8 flex flex-1 flex-col justify-between">
         <div className="flex flex-1 flex-row flex-wrap items-center justify-center">
-          <div className="xsm:items-end xsm:text-right flex flex-col items-center justify-center text-center">
+          <div className="flex flex-col items-center justify-center text-center sm:items-end sm:text-right">
             <Image
               alt="Sub Count app logo"
               className="rounded-lg"
